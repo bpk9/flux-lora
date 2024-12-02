@@ -1,6 +1,8 @@
 # FLUX LoRa
 
-This project presents a LoRA adapter tailored to the [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) AI image model, with a focus on generating personalized images.
+A LoRA adapter tailored to the [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) AI image model, with a focus on generating personalized images.
+
+**NOTE:** To protect the privacy of the data, the LoRA weights as well as the data used to train the LoRA is not included in this repository.
 
 ## Background
 
@@ -24,8 +26,6 @@ generated_images/1.jpg             | generated_images/2.jpg
 generated_images/3.jpg             | generated_images/4.jpg
 :-------------------------:|:-------------------------:
 ![](./generated_images/3.jpg)  |  ![](./generated_images/4.jpg)
-
-**NOTE:** To protect the privacy of the data, the LoRA weights as well as the data used to train the LoRA is not included in this repository.
 
 ## Training Your Own LoRA
 
